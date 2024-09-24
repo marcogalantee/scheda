@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    background-color: rgb(245, 241, 241);
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+.nav-bar {
+    background-color: #00387b;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+}
+.titolo {
+    color: rgb(231, 225, 225);
+    
+    font-size: 40px;
+}
+
+
+
+
+.main,.main2{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.schede{
+    
+    height: 380px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.figura{
+    z-index:1;
+    height: 300px;
+    width: 200px;
+}
+.desdes,.sinsin,.desdes2,.sinsin2{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9); /* X, Y, sfocatura, colore */
+    scale: 1;
+    transition: ease-in-out 0.03s;
+}
+.sinistra,.destra{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9); /* X, Y, sfocatura, colore */
+    scale: 1;
+    transition: ease-in-out 0.03s;
+}
+.sinsin{
+    left: 550px;
+    transform: rotate(15deg);
+    top: 250px;
+}
+.sinsin2{
+    left: 550px;
+    transform: rotate(15deg);
+    top: 750px;
+}
+.desdes{
+    transform: rotate(-15deg);
+    top: 250px;
+    right: 550px;
+}
+.desdes2{
+    transform: rotate(-15deg);
+    top: 750px;
+    right: 550px;
+}
+.primi{
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+    position: relative; /* Necessario per l'uso di position absolute nel bottone */
+}
+.primo,.secondo{
+    color: rgb(75, 74, 74);
+}
+.primo{
+    position: absolute;
+    margin-top: 900px;
+}
+.secondo{
+    position: absolute;
+    margin-top: 900px;
+}
+.riga{
+    border: 1px solid gray;
+    width: 90%;
+}
+.testi{
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+}
+.testo{
+    margin-top: 50px;
+   
+    
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.end{
+    border: 1px solid green;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+.desdes:hover,.sinsin:hover,.desdes2:hover,.sinsin2:hover,.sinistra:hover,.destra:hover{
+    scale: 1.05;
+}
