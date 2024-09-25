@@ -122,10 +122,17 @@ a{
     border: 1px solid green;
     height: 300px;
     width: 100%;
+    background-color: #00387b;
 }
+
+
+
 
 
 
 .desdes:hover,.sinsin:hover,.desdes2:hover,.sinsin2:hover,.sinistra:hover,.destra:hover{
     scale: 1.05;
 }
+
+
+
