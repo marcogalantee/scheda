@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    background-color: rgb(245, 241, 241);
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+.nav-bar {
+    background-color: #00387b;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+}
+.titolo {
+    color: rgb(231, 225, 225);
+    
+    font-size: 40px;
+}
+.primi{
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+    position: relative; /* Necessario per l'uso di position absolute nel bottone */
+}
+.primo,.secondo{
+    color: rgb(75, 74, 74);
+    margin-top: 100px;
+}
+.riga{
+    border: 1px solid gray;
+    width: 90%;
+    margin-bottom: 70px;
+}
+
+/* inizio contenitore intera pagina */
+
+
+.tutto{
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+
+.title{
+    text-align: center;
+    border: 1px solid red;
+    margin: 0;
+    
+    
+    color: rgb(75, 74, 74);
+    font-size: 40px;
+    
+}
